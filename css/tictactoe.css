@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#board {
+  width: 450px;
+  margin: 50px auto auto;
+}
+
+#board .row {
+  clear: both;
+  overflow: hidden;
+}
+
+#board .cell:hover {
+  cursor: pointer;
+}
+
+#board .cell {
+  height:100px;
+  float: left;
+  width: 149px;
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.left {
+  border-left: 1px solid black;
+}
+
+.bottom {
+  border-bottom: 1px solid black;
+}
+
+.oh {
+
+}
+
+.ex {
+
+}
+
+.turnStatus{
+  padding: 5px;
+  margin: 5px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size: 50px;
+}
